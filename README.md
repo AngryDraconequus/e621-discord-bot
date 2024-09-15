@@ -7,6 +7,6 @@ The bot reacts to slash commands.
 ## Installation
 1. Download or clone the repo.
 2. Make sure you have Python3 and pip installed
-3. Run pip install -r requirements.txt
+3. Run pip install -r requirements.txt to install all the dependencies
 4. Modify config.json file - change the bot name and add your Discord bot token that you can find on the Discord Developer Portal
 5. Run the main.py file (on Windows you can use start.bat file)
