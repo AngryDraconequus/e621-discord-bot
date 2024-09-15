@@ -12,7 +12,7 @@ with open('config.json', 'r') as f:
 intents = discord.Intents.default()
 intents.message_content = True  # Enable the privileged intent for message content
 
-bot = commands.Bot(command_prefix=config['Liz']['command_prefix'], intents=intents)
+bot = commands.Bot(command_prefix=config['Bot_name']['command_prefix'], intents=intents)
 
 # Register commands and sync them with Discord
 @bot.event
@@ -28,7 +28,7 @@ async def on_ready():
 
 # Dynamically load the modules from the 'modules' folder
 async def load_extensions():
-    modules_folder = config['Liz']['modules_folder']
+    modules_folder = config['Bot_name']['modules_folder']
     for filename in os.listdir(modules_folder):
         if filename.endswith('.py'):
             try:
@@ -39,7 +39,7 @@ async def load_extensions():
 
 async def main():
     await load_extensions()
-    await bot.start(config['Liz']['token'])
+    await bot.start(config['Bot_name']['token'])
 
 if __name__ == "__main__":
     asyncio.run(main())
