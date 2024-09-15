@@ -1,0 +1,9 @@
+{
+  "Bot_name": {
+    "token": "",
+    "command_prefix": "/",
+    "modules_folder": "modules",
+    "enabled_modules": [],
+    "disabled_modules": []
+  }
+}
