@@ -1,4 +1,6 @@
 # e621-Discord-Bot
+You need to be at least 18 years old to use this bot as it pulls images from a pornographic website.
+
 The bot dynamically loads modules from the modules folder - you can add as many as you like, performing a wide variety of functions.
 
 Currently all modules are commands designed to find furry images and videos on e621.net and embed them on Discord. Each command has multiple paramaters for finding more specific types of content.
