@@ -12,3 +12,5 @@ The bot reacts to slash commands.
 3. Run pip install -r requirements.txt to install all the dependencies
 4. Modify config.json file - change the bot name and add your Discord bot token that you can find on the Discord Developer Portal
 5. Run the main.py file (on Windows you can use start.bat file)
+
+Fork of [Universal Discord Bot by Szmelc.INC](https://github.com/Szmelc-INC/Universal-Discord-Bot)
